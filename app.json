@@ -1,0 +1,25 @@
+{
+    "name": "Trava Tele",
+    "description": "Just test",
+    "keywords": [
+        "trava"
+    ],
+    "website": "https://www.youtube.com/c/TRAVAMAKER",
+    "repository": "https://github.com/ElsePaul/TravaTELE",
+    "success_url": "/",
+    "env": {
+        "API_TOKEN": {
+            "description": "API Token , get it from @BotFather"
+        },
+        "START_MSG": {
+           "description": "Enter Custom Start Message"
+    }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
